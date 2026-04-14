@@ -10,4 +10,5 @@ My goal was to provide a smoother and more reliable experience.
 
 ## 🖥 How to use
 
-Click this link to open Aha Halo web: https://jenskauteren.github.io/Aha-Halo-Web
+Open [this link]([http://localhost:3000](https://jenskauteren.github.io/Aha-Halo-Web)) to view the app in your browser.
+

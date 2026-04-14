@@ -13,7 +13,7 @@ My goal was to provide a smoother and more reliable experience.
 ## ❓ Frequently Asked Questions (FAQ) 
 
 *1. Is it free?*
-Yes, this application is completely free to use. It was developed to provide users with an easier way to manage their frequency programs and customize their AHA Halo experience without additional costs.
+Yes, this application is completely free to use. It was developed to provide users with an easier way to manage their frequency programs and customize their AHA Halo experience without additional costs or downloads.
 
 *2. Will it damage my AHA Halo device?*
 No, the app does not damage the hardware. It communicates with the device using the standard protocols that the original software uses. It simply sends data values and frequencies to the internal slots of the device. However, always ensure you are using a stable USB connection when writing data to prevent communication errors.
@@ -22,9 +22,9 @@ No, the app does not damage the hardware. It communicates with the device using 
 If you encounter issues, please follow these troubleshooting steps:
 Check the connection: Ensure the USB cable is securely plugged into both your computer and the AHA Halo device.
 Port Selection: Verify that you have selected the correct COM port in the application settings.
-Try a different browser!
+Browser: try a different browser such as Brave or Chrome!
 
-*4. Will you export the app for smartphone?*
+*4. Will the app work on smartphone?*
 Maybe, try it out and let us know!
 
 *5. Why the need for another app?*

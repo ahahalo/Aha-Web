@@ -10,5 +10,4 @@ My goal was to provide a smoother and more reliable experience.
 
 ## 🖥 How to use
 
-Click this link to open Aha Halo web.
-<a test="[URL](https://jenskauteren.github.io/Aha-Halo-Web/)"></a> 
+Click this link to open Aha Halo web: https://jenskauteren.github.io/Aha-Halo-Web

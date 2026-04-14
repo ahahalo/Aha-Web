@@ -11,3 +11,5 @@ My goal was to provide a smoother and more reliable experience.
 ## 🖥 How to use
 
 Click this link to open Aha Halo web.
+<a test="URL"></a> 
+*// Creates a hyperlink. Note 'href'. This is called an attribute.

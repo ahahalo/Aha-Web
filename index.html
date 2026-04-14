@@ -1,34 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-    <title>Halo Programmer</title>
+    <title>Aha Halo Programmer</title>
     <script src="coi-serviceworker.min.js"></script>
     <style>
-        body, html, #canvas { margin: 0; padding: 0; border: 0; width: 100%; height: 100%; overflow: hidden; background-color: black; }
-        #canvas { display: block; }
+        body, html { margin: 0; padding: 0; background-color: #1a1a1a; overflow: hidden; }
+        #canvas { width: 100vw; height: 100vh; display: block; }
     </style>
 </head>
 <body>
-    <canvas id="canvas">Your browser does not support the canvas tag.</canvas>
-
+    <canvas id="canvas"></canvas>
     <script src="index.js"></script>
     <script>
-        // Hier vertellen we de engine dat alle bestanden 'index' heten
-        const GODOT_CONFIG = {
-            "args": [],
-            "canvasResizePolicy": 2,
-            "executable": "index", 
-            "fileSizes": { 
-                "index.pck": 13040876, 
-                "index.wasm": 37695054 
-            },
-            "focusCanvas": true,
-            "gdextensionLibs": [],
-            "godotPoolSize": 4
-        };
-        const engine = new Engine(GODOT_CONFIG);
+        const engine = new Engine({"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":13723320,"index.wasm":37695054},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4});
         engine.startGame();
     </script>
 </body>

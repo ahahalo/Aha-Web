@@ -51,29 +51,7 @@ This is due to the software, we're doing everything we can to fix it!
 We can certainly do this in the later future, but currently, this is not our priority.
 
 *12. How does Aha Halo calculate the frequencies?*
-Let's take a look at the Cell program of Aha Halo (in Spooky2 this is called Cell regeneration (BIO):
-
-The ratio between the Spooky2 frequency (97.5) and the value written to the Halo (9755) is based on a fixed scaling of 100 plus a correction offset.
-
-In Spooky2 program: 97.5
-In Aha Halo: (:w19): 9755
-
-The calculation performed by the official software is: (Frequency * 100) + 5
-
-In this example:
-
-97.5 x 100 = 9750
-9750 + 5 = 9755
-
-During the data transfer I was watching, I saw :w19=9755,-756,.. The number -756 is the encrypted representation of the Dwell (duration).
-
-In Spooky2, the dwell is 180 seconds.
-
-The Halo software uses a negative value or a specific bit shift to pass the duration per frequency to the hardware. In this case, -756 in the Halo firmware corresponds to the instruction to hold this frequency for exactly 180 seconds.
-
-Why the "-756"?
-
-The number -756 is the encrypted representation of the Dwell (duration). In Spooky2, the dwell is 180 seconds. The Halo software uses a negative value or a specific bit shift to pass the duration per frequency to the hardware. In this case, -756 in the Halo firmware corresponds to the instruction to hold this frequency for exactly 180 seconds.
+Let's take a look at the Cell program of Aha Halo (in Spooky2 this is called Cell regeneration (BIO): The ratio between the Spooky2 frequency (97.5) and the value written to the Halo (9755) is based on a fixed scaling of 100 plus a correction offset. In Spooky2 program: 97.5 and in Aha Halo: (:w19): 9755. The calculation performed by the official software is: (Frequency * 100) + 5. In this example: 97.5 x 100 = 9750. 9750 + 5 = 9755. During the data transfer I was watching, I saw :w19=9755,-756,.. The number -756 is the encrypted representation of the Dwell (duration). In Spooky2, the dwell is 180 seconds. The Halo software uses a negative value or a specific bit shift to pass the duration per frequency to the hardware. In this case, -756 in the Halo firmware corresponds to the instruction to hold this frequency for exactly 180 seconds. Why the "-756"? The number -756 is the encrypted representation of the Dwell (duration). In Spooky2, the dwell is 180 seconds. The Halo software uses a negative value or a specific bit shift to pass the duration per frequency to the hardware. In this case, -756 in the Halo firmware corresponds to the instruction to hold this frequency for exactly 180 seconds.
 
 ## 🐞 Bugs
 

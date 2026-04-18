@@ -56,8 +56,9 @@ Let's take a look at the Cell program of Aha (in Spooky2 this is called Cell reg
 
 ## 🐞 Bugs
 
-- After turning off the Aha the app won't recognize Aha anymore
+- After turning off the Aha device app won't recognize Aha anymore
 - Program names cut off
+- Programs written on random slots
 
 There are a lot of bugs! BE WARNED!
 

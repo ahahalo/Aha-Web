@@ -65,3 +65,7 @@ There are a lot of bugs! BE WARNED!
 ## 🖥 How to use
 
 Open [this link](http://ahascalar.github.io/Aha-Web/) to use the app in your browser.
+
+## 📞 Contact
+
+Join [our Telegram](t.me/ahascalar) to contact us!

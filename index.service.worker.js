@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1776788571|253969764';
+const CACHE_VERSION = '1776788624|307749912';
 /** @type {string} */
 const CACHE_PREFIX = 'Aha Web-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
